@@ -1,0 +1,69 @@
+.planos {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__secundario {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: italic;
+    color: var(--branco);
+    padding: .75em;
+}
+
+.planos__caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--branco);
+    margin: 0 3em 5em;
+    padding: .2em;
+    border-radius: 30px;
+}
+
+.caixa__titulo {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--branco);
+    padding: 1em;
+}
+
+.caixa__lista {
+    text-align: initial;
+}
+
+.caixa__item {
+    color: var(--branco);
+    padding: 1em 3em;
+    border: 1px solid var(--branco);
+    border-radius: 40px;
+    margin: .6em;
+}
+
+.valor__texto {
+    font-weight: 900;
+    font-size: 1.7em;
+    padding: .72em;
+    color: var(--branco);
+}
+
+.caixa__botao {
+    margin-bottom: 2em;
+}
+
+@media (min-width: 1024px) {
+    .planos {
+        justify-content: center;
+    }
+
+    .planos__container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .planos__caixa{
+        margin: 2em;
+        align-items: center;
+    }
+}

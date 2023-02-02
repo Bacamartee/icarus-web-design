@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+@import url(./css/header.css);
+@import url(./css/banner.css);
+@import url(./css/planos.css);
+@import url(./css/portifolio.css);
+@import url(./css/contato.css);
+@import url(./css/rodape.css);
+
+:root {
+    --fonte-principal : 'Poppins', sans-serif;
+    --azul-claro: #3c97ff;
+    --branco: #FFFFFF;
+    --azul-degrade: linear-gradient(90deg, rgba(3,0,28,1) 0%, rgba(60,151,255,1) 100%, rgba(60,151,255,1) 100%);
+    --preto: #000000;
+    --branco-transparente : #ffffff9c;
+    --azul-degrade-botao: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    --cor-fonte-secundaria: #006eff65;
+    --cinza-escuro: #404258;
+    --instagram: radial-gradient( circle farthest-corner at 10.2% 55.8%,  rgba(252,37,103,1) 0%, rgba(250,38,151,1) 46.2%, rgba(186,8,181,1) 90.1% );
+    --whatsapp: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+    --rodape-degrade: linear-gradient(180deg, rgba(60,151,255,1) 0%, rgba(0,0,0,1) 9%); 
+    --azul-degrade-contrario: linear-gradient(270deg,  rgba(3,0,28,1) 0%, rgba(60,151,255,1) 100%, rgba(60,151,255,1) 100%);
+
+}
+
+body {
+    background: 100vw;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--azul-claro);
+}
+
+.negrito {
+    font-weight: 900;
+}

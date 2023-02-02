@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfólio - Icarus Web Design</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+                    <label for="menu" class="container__rotulo">
+                        <span class="container__menu-hamburguer container__imagem"></span>
+                    </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item">
+                            <a href="./index.html" class="lista-menu__link">Home</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Portfólio</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="./planos.html" class="lista-menu__link">Planos</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="/contato.html" class="lista-menu__link">Contato</a>
+                        </li>
+                    </ul>  
+        </div>
+            <div class="container__itens">
+                <a href="./index.html"><img class="container__logo" src="./img/logo.png" alt="logo da ícarus web design"></a>
+            </div>
+            <ul class="opcoes">
+                <li class="lista-menu__item">
+                    <a href="./index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./portfolio.html" class="lista-menu__link">Portfólio</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./planos.html" class="lista-menu__link">Planos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./contato.html" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+    </header>
+    <section>
+        <div class="banner">
+            <img class="banner__logo" src="./img/icarus.png" alt="logo da ícarus">
+            <h1 class="banner__titulo">A melhor empresa de WebDesign do Estado do Rio!</h1>
+            <a href="./planos.html" class="banner__botao caixa__botao">Confira nossos planos</a>
+        </div>
+    </section>
+    <section class="portifolio">
+        <h2 class="titulo__secundario">Portifólio</h2>
+        <p class="portifolio__descricao">Todos os sites estão responsivos, ou seja, o display do site depende do 
+            tamanho da sua tela</p>
+        <div class="portifolio__sites">
+            <div class="portifolio__site">
+                <a href="https://bacamartee.github.io/alurabook/">
+                    <img class="portifolio__foto" src="./img/alura-books.png" alt="foto do site Alura Books">
+                </a>
+                    <div class="portifolio-textos">
+                        <h3 class="portifolio-textos__nome-site">Alura Books</h3>
+                        <p class="portifolio-textos__descricao-site">Site produzido durante o curso de HTML e CSS da Alura</p>
+                    </div>
+            </div>
+            <div class="portifolio__site">
+                <a href="https://bacamartee.github.io/culturama/#">
+                    <img class="portifolio__foto" src="./img/culturama.png" alt="foto do site Cultrama">
+                </a>
+                <div class="portifolio-textos">
+                    <h3 class="portifolio-textos__nome-site">Culturama</h3>
+                    <p class="portifolio-textos__descricao-site">Site produzido durante o curso de HTML e CSS da Alura, focando no grid CSS</p>
+                </div>
+            </div>
+            <div class="portifolio__site">
+                <a href="https://jogo-numero-secreto-6rdz-hyd9j53to-bacamartee.vercel.app/">
+                    <img class="portifolio__foto" src="./img/numero-secreto.png" alt="foto do site jogo número secreto">
+                </a>
+                <div class="portifolio-textos">
+                    <h3 class="portifolio-textos__nome-site">Número Secreto</h3>
+                    <p class="portifolio-textos__descricao-site">Site produzido durante o curso de Javascript da Alura, focando no reconhecimento de voz</p>
+                    <p class="portifolio-textos__descricao-site">Site consiste em um jogo onde reconhece a sua voz e transmite o número falado na tela, você consegue acertar o número secreto??</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p class="rodape__copyright">&#169</p>
+        <p class="rodape__texto">Desenvolvido por Icarus Web Design</p>
+    </footer>
+</body>
+</html>

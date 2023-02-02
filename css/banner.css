@@ -1,0 +1,49 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    background: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3em;
+}
+
+.banner__logo {
+    width: 20em;
+    padding-bottom: 2em;
+}
+
+.banner__titulo {
+    color: var(--branco-transparente);
+    font-size: 1.2em;
+    font-weight: 100;
+    padding: 0 1em;
+    text-align: center;
+    font-style: italic;
+}
+
+.banner__botao {
+    margin-top: 2em;
+    padding: .7em;
+    border: none;
+    border-radius: 10px;
+    background: var(--azul-degrade-botao);
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 1.2em;
+    font-weight: 200;
+    box-shadow: 1em 1em 5em var(--preto);
+    text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+
+.banner {
+    background: url(../img/banner-1024.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+}

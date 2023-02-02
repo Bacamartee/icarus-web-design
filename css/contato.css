@@ -1,0 +1,106 @@
+.contato__lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em 4em .72em;
+    border-radius: 30px;
+}
+
+
+.contato__logo {
+    width: 3em;
+    padding-right: 2em ;
+}
+
+.contato__link {
+    font-size: 1.46em;
+    font-weight: 500;
+    color: var(--branco);
+    text-transform: uppercase;
+}
+
+.instagram {
+    background: var(--instagram);
+}
+
+.whatsapp {
+    background: var(--whatsapp);
+}
+
+.contato__lista a {
+    text-decoration: none;
+}
+
+.email {
+    display: none;
+}
+
+@media  (min-width:1024px){
+
+    .email {
+        display: block;
+        padding: 3em;
+    }
+    .contato__lista {
+        flex-direction: row;
+        justify-content: center;
+        border-bottom: 1px solid var(--branco-transparente);
+    }
+
+    .contato__caixa{
+        width: 25vw;
+    }
+
+    .email__container  {
+        align-items: center;
+        margin: 0 5em;
+        padding: 1em 8em;
+        background: var(--branco-transparente);
+        border-radius: 20px;
+    }
+
+    .email__formulario {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .email__texto {
+        font-weight: 200;
+        padding: .4em;
+    }
+    
+    .email__formulario input {
+        font-family: var(--fonte-principal);
+        padding: 1em;
+        outline: none;
+        border: 0;
+        margin-bottom: .75em;
+        border-radius: 10px;
+    };
+
+    .email__formulario input::placeholder {
+        font-family: var(--fonte-principal);
+        font-weight: 200;
+    }
+
+    .email__formulario textarea {
+        font-family: var(--fonte-principal);
+        outline: none;
+        border: 0;
+        margin-bottom: .75em;
+        border-radius: 10px;
+    }
+
+    .email__formulario textarea::placeholder {
+        font-family: var(--fonte-principal);
+        font-weight: 200;
+    }
+}

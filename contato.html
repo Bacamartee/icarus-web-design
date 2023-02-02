@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Contatos - Icarus Web Design</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+                    <label for="menu" class="container__rotulo">
+                        <span class="container__menu-hamburguer container__imagem"></span>
+                    </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item">
+                            <a href="./index.html" class="lista-menu__link">Home</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="./portfolio.html" class="lista-menu__link">Portfólio</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="./planos.html" class="lista-menu__link">Planos</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Contato</a>
+                        </li>
+                    </ul>  
+        </div>
+            <div class="container__itens">
+                <a href="./index.html"><img class="container__logo" src="./img/logo.png" alt="logo da ícarus web design"></a>
+            </div>
+            <ul class="opcoes">
+                <li class="lista-menu__item">
+                    <a href="./index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./portfolio.html" class="lista-menu__link">Portfólio</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./planos.html" class="lista-menu__link">Planos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./contato.html" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+    </header>
+    <section>
+        <div class="banner">
+            <img class="banner__logo" src="./img/icarus.png" alt="logo da ícarus">
+            <h1 class="banner__titulo">A melhor empresa de WebDesign do Estado do Rio!</h1>
+            <a href="./planos.html" class="banner__botao caixa__botao">Confira nossos planos</a>
+        </div>
+    </section>
+    <section class="contato">
+        <h2 class="titulo__secundario contato__titulo">Contatos</h2>
+        <ul class="contato__lista">
+            <a href="https://instagram.com/oficial.bacamarte?igshid=NTA5ZTk1NTc="><div class="contato__caixa instagram">
+                <img class="contato__logo" src="./img/insta.png" alt="logo do instagram">
+                <li class="contato__link">Instagram</li>
+            </div></a>
+            <a href="https://wa.me/5521990189290"><div class="contato__caixa whatsapp">
+                <img class="contato__logo" src="./img/whatsapp.png" alt="logo do whatsapp">
+                <li class="contato__link">Whatsapp</li>
+            </div></a>
+        </ul>
+        <div class="email">
+            <h3 class="titulo__secundario">Fale Conosco</h2>
+            <div class="email__container">
+                <form class="email__formulario" action="https://api.staticforms.xyz/submit" method="post">
+                        <label class="email__texto">Nome</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off" required>
+                        <label class="email__texto">Email</label>
+                        <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                        <label class="email__texto">Mensagem</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                        <input type="submit" value="Enviar">
+                        <input type="hidden" name="redirectTo" value="https://bacamartee.github.io/icarus-web-design/contato.html">
+                        <input type="hidden" name="accessKey" value="8afff6dd-59f7-4230-b555-b669eaef5f09">
+                        
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p class="rodape__copyright">&#169</p>
+        <p class="rodape__texto">Desenvolvido por Icarus Web Design</p>
+    </footer>
